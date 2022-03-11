@@ -3,11 +3,12 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/ivankf/metro/pkg/parse"
 	"io"
 	"math/rand"
 	"os"
 	"time"
+
+	"github.com/ivankf/metro/pkg/parse"
 )
 
 func (m *Main) Run(args ...string) error {
